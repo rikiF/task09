@@ -69,15 +69,18 @@ article .nav{width:100%;background-color:#fff;height:30px;}
 .dateSet form #chengjiao{width:118px;height:23px;margin-left:13px;}
 .dateSet form button{width:50px;height:25px;color:#fff;background-color:#4197eb;border-radius:3px;margin-top:30px;margin-left: 30px;}
 /* article time */
-.time{width:890px;height:63px;border-radius: 3px;margin:8px 70px 8px 60px;}
-.time ul li{border-top:1px solid #ccc;border-left:1px solid #ccc;margin-right:5px;float:left;background-color:#fff;}
-.time ul li:hover{border-top:4px solid #41a7eb;}
+.time{width:890px;height:65px;border-radius:3px;margin:8px 70px 8px 60px;}
+.time ul li{float:left;height:61px;border-left:1px solid #ccc;border-top:1px solid #ccc;margin-right:5px;background-color:#fff;cursor:pointer;}
+.time ul li .topColor{background-color:#fff;height:4px;width:100%;}
+.time ul li:nth-child(4) .topColor{background-color:#4388c9;}
+.time ul li:hover .topColor{background-color:#4388c9;}
+.timeS{margin-top:10px;}
 .time ul li:first-child{width:29px;height:63px;background:#fff url(../images/m-dateSelect2.png) no-repeat left 5px bottom 20px;border-radius:3px 0 0 3px/3px 0 0 3px;}
-.time ul .utc{width:109px;height:53px;text-align:center;padding-top:10px;}
-.time ul .utc span{font:12px "microsoft yahei";color:#333;display:inline-block;}
+.time ul .utc{width:109px;height:63px;text-align:center;font:12px "microsoft yahei";color:#333;}
 .time ul .utc strong{font:21px "microsoft yahei";color:#ec6500;}
 .time ul li:nth-last-child(2){width:29px;height:63px;background:#fff url(../images/m-dateSelect2.png) no-repeat left 7px top -15px;}
-.time ul li:last-child{width:128px;height:63px;border-radius:0 3px 3px 0/0 3px 3px 0;background:#fff url(../images/m-dateSelect.png) no-repeat left 17px bottom -8px;text-align:center;line-height:63px;text-indent: 50px;margin-right:0;}
+.time ul li:last-child{width:128px;height:62px;border-radius:0 3px 3px 0/0 3px 3px 0;background:#fff url(../images/m-dateSelect.png) no-repeat left 15px bottom -4px;line-height:59px;margin-right:0;}
+.time ul li:last-child p{text-indent:60px;}
 
 /* article tonji */
 .tonji{width:890px;margin-left:60px;margin-top:20px;}
@@ -138,9 +141,10 @@ font:12px "黑体";color:#535353;
 .riqi .xingqi{border-top:1px solid #9ffafc;
 border-bottom:1px solid #ccc;height:28px;width:100%;}
 .riqi .xingqi ul li{float:left;line-height: 28px;margin:0 16px;}
-.clendator table{width:310px;margin-top:10px;}
-.clendator table td{width:39px;height:39px; text-align:center;margin:1px 1px;}
-.clendator table td:hover{border:1px solid #f4c21d;}
+.clendator table{width:310px;margin-top:10px;border-collapse:separate;}
+.clendator table td{width:38px;height:38px; text-align:center;border:1px solid #fff;}
+.clendator table .taBor{border-color:#f4c21d;}
+.clendator table td:hover{border-color:#f4c21d;}
 .clendator table .nongRed p:last-child{color:red;}
 .clendator table .clenRed p:first-child{color:red;}
 /* article qiche */
